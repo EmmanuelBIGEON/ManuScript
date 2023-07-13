@@ -13,6 +13,8 @@ When you close the windows, it put the application in the System Tray icons. Fro
 
 ![Preview ParticleSandbox](preview2.png)
 
+The commands are saved in a file named commands.json auto-generated.
+
 ## Run
 
 ```
