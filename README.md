@@ -23,4 +23,15 @@ Install the dependencies : customtkinter, pystray
 $ python main.py
 ```
 
-An executable will come soon with the repository so that it is more convenient to use.
+## Create an executable 
+
+I use PyInstaller, you can install it using : 
+
+$ pip install -U pyinstaller
+
+Open a terminal in the repository location and run this command.
+
+$ pyinstaller -n "ManuScript" -i "favicon.ico" -w main.py
+
+Once you're done, copy the "favicon.ico" in the dist/main folder because the executable requires it.
+Now you can run the executable "ManuScript.exe" and create a shortcut.
