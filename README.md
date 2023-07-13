@@ -15,10 +15,14 @@ When you close the windows, it put the application in the System Tray icons. Fro
 
 The commands are saved in a file named commands.json auto-generated.
 
+## Quick Install
+
+There's an installer in the release. Just download it and start the application.
+
 ## Run
 
 ```
-Install the dependencies : customtkinter, pystray
+Install the dependencies : customtkinter, pystray, tendo
 
 $ python main.py
 ```
@@ -27,11 +31,15 @@ $ python main.py
 
 I use PyInstaller, you can install it using : 
 
+```
 $ pip install -U pyinstaller
+```
 
 Open a terminal in the repository location and run this command.
 
+```
 $ pyinstaller -n "ManuScript" -i "favicon.ico" -w main.py
+```
 
 Once you're done, copy the "favicon.ico" in the dist/main folder because the executable requires it.
 Now you can run the executable "ManuScript.exe" and create a shortcut.
